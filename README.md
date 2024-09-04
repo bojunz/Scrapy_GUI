@@ -53,7 +53,9 @@ Keywords: Web crawling, HTML parsing, Threading management, UI/UX design, Data a
 </tr>
 </table>
 
-
+## Result Demo
+<img src="https://github.com/bojunz/Scrapy_GUI/blob/main/Crawler_demo.png" alt="Demo Login Page GIF" style="border: 2px solid black; max-width: 100%; height: 400px;">
+<img src="https://github.com/bojunz/Scrapy_GUI/blob/main/Crawler_result.png" alt="Demo Login Page GIF" style="border: 2px solid black; max-width: 100%; height: 200px;">
 
 </td>
 </tr>
