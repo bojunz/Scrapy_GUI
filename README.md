@@ -6,7 +6,7 @@
 This project integrates web scraping, data cleaning, analysis, visualization, and UI/UX design into a cohesive software solution. The process begins with the ethical collection of Amazon product prices and rankings through authorized channels. The data is then meticulously cleaned and analyzed. Following this, the results are visualized and encapsulated in a user-friendly software application. Users benefit from a one-click crawling feature and intuitive visualization tools, designed to facilitate data analysis and decision-making for non-technical users.
 
 ## Key process
-Keywords: web crawling, HTML parsing, threading management, UI/UX design, data analysis
+Keywords: Web crawling, HTML parsing, Threading management, UI/UX design, Data analysis
 | Iteration | Description                                                                                 |
 |-----------|---------------------------------------------------------------------------------------------|
 | 1         | The target product page was parsed, the crawl location was identified, and request headers were configured to simulate real user interactions.  |
@@ -16,3 +16,45 @@ Keywords: web crawling, HTML parsing, threading management, UI/UX design, data a
 | 5         | Addressed a synchronization issue where the back-end did not stop data capture upon pressing the stop button due to threading conflicts. This issue was resolved through multi-threading and event handling techniques              |
 | 6         | Developed the back-end for data visualization, including data cleaning and time-series analysis to monitor competitor behavior. |
 | 7         | Designed the UI/UX for the data visualization front-end, integrating visualization results into the display page and adding features for chart and product switching.                  |
+
+
+
+# Demo
+## Home window
+<table>
+<tr>
+<td>
+<img src="https://github.com/bojunz/Scrapy_GUI/blob/main/Crawl_Home.gif" alt="Demo Login Page GIF" style="border: 2px solid black; max-width: 100%; height: auto;">
+</td>
+<td>
+
+### Features
+- One-click start and stop
+- Customize crawling speed
+- Logs and error messages
+- Data visualization function
+
+</td>
+</tr>
+</table>
+
+## Visual interface
+<table>
+<tr>
+<td>
+<img src="https://github.com/bojunz/Scrapy_GUI/blob/main/Crawl_Vis2.gif" alt="Demo Login Page GIF" style="border: 2px solid black; max-width: 100%; height: auto;">
+</td>
+<td>
+
+### Features
+- Because crawling is done multiple times a day, custom visualization is performed based on the number of times or days
+- Customize and select different categories
+</td>
+</tr>
+</table>
+
+
+
+</td>
+</tr>
+</table>
